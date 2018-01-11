@@ -1,0 +1,109 @@
+.top{
+  width: 1304px;
+  height: 150px;
+  position: absolute;
+  left: 230px;
+  border: 2px solid black;
+  border-right: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-right:0;
+  top: -0px;
+}
+.who{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 0px;
+  top: 128px;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.reg{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 128px;
+  top: 128px;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.event{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 256px;
+  top: 128px;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.lcomment{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 384px;
+  top: 128px;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.rcomment{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 512px;
+  top: 128px;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.info{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 640px;
+  top: 128px;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.gif{
+  background-image: url(https://i.imgur.com/d6YTfNX.gif);
+  width: 230px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  border: 2px solid black;
+  border-left: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-right:0;
+  top: 0px;
+}
+body {
+background-image: url(http://www.ewedu.net/data/out/69/841651574-volleyball-wallpapers.jpg); 
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+
+h1{
+  position: center;
+  color:black;
+  text-shadow: grey 0.2em 0.2em 0.3em;
+}
+#main{
+  position: absolute;
+  top:151px;
+  left:50%;
+}
+#sidebar{
+  position: absolute;
+  width: 222px;
+  height: 575px;
+  top: 152px;
+  border: 2px solid black;
+  border-left: none;
+}
+

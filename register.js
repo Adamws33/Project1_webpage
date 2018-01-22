@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   // On page load, make an AJAX request to our API endpoint to retrieve all friends in DB
   $.ajax({
-    url: 'http://rest.learncode.academy/api/adamws33/friends', 
+    url: 'https://rest.learncode.academy/api/adamws33/friends', 
     type: 'GET'
   }).done( (data)=>{
     // We get an array of friends back, iterate over the array
@@ -37,7 +37,7 @@ $(document).ready(function(){
     // Send the new friend's information to the API
 
     $.ajax({
-      url: 'http://rest.learncode.academy/api/adamws33/friends', 
+      url: 'https://rest.learncode.academy/api/adamws33/friends', 
       type: 'POST',
       data: {
         first: firstName,
@@ -97,7 +97,7 @@ $(document).ready(function(){
 
 function deleteRow(target){
   $.ajax({
-    url: `http://rest.learncode.academy/api/adamws33/friends/${target.id}`, 
+    url: `https://rest.learncode.academy/api/adamws33/friends/${target.id}`, 
     type: 'DELETE'
   }).done( ()=>{
     // $(this).remove();

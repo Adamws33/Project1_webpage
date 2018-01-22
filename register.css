@@ -1,0 +1,389 @@
+.top{
+  width: 100%;
+  height: 150px;
+  position: relative;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-left: 0;
+  top: 2px;
+}
+.who{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 22%;
+  top: 17.5%;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+.reg{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 32%;
+  top: 1.5%;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+.event{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 42%;
+  top: -14.5%;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+.lcomment{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 52%;
+  top: -30.5%;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+.rcomment{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 62%;
+  top: -46.5%;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+.info{
+  width: 125px;
+  height: 20px;
+  position: relative;
+  left: 72%;
+  top: -62.5%;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+.gif{
+  background-image: url(https://i.imgur.com/d6YTfNX.gif);
+  width: 230px;
+  height: 150px;
+  position: relative;
+  left: 0px;
+  border: 2px solid black;
+  border-left: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-right:0px;
+  padding: 0px;
+  top: -165%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(http://www.ewedu.net/data/out/69/841651574-volleyball-wallpapers.jpg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+  position: relative;
+  position: center;
+  font-size: 350%;
+  color:black;
+  top: 18%;
+  text-shadow: rgb(51, 49, 49) .2em .2em 0.2em;
+  margin-top: 0%;
+}
+.main{
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+}
+#sidebar{
+  background-color: blanchedalmond;
+  position: absolute;
+  width: 229px;
+  height: 83.25%;
+  left: -.07%;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-right:0px;
+  padding: 0px;  
+}
+a:hover{
+  color: black;
+  background-color: lightblue;
+  opacity: .8;
+  text-decoration-style: solid;
+}
+a:visited{
+  color: black;
+}
+.who2{
+  opacity: 1; 
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  border: 2px solid black;
+}
+.who3{
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  opacity: 0;
+}
+.who2:hover .who3{
+  background-color: lightblue;
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  opacity: 1;
+}
+.event2{
+  opacity: 1;
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  left: 25%;
+  top: 32.5%;
+  border: 2px solid black;
+}
+.event3{
+  background-color: lightblue;
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  opacity: 0;
+}
+.event2:hover .event3{
+  background-color: lightblue;
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  opacity: 1;
+}
+.lcomment2{
+  opacity: 1;
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  left: 25%;
+  top: 55%;
+  border: 2px solid black;
+}
+.lcomment3{
+  background-color: lightblue;
+  position: absolute;
+  left: 20%;
+  top: 100px;  
+  opacity: 0;
+}
+.lcomment2:hover .lcomment3{
+  background-color: lightblue;
+  position: absolute;
+  left: 90px;
+  top: 100px;
+  opacity: 1;
+}
+.reg2{  
+  opacity: 1;
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+  border: 2px solid black;
+}
+.reg3{
+  background-color: lightblue;
+  position: absolute;
+  left: 90px;
+  top: 100px;  
+  opacity: 0;
+}
+.reg2:hover .reg3{
+  background-color: lightblue;
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  opacity: 1;
+}
+.info2{
+  opacity: 1;   
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  left: 55%;
+  top: 32.5%;
+  border: 2px solid black;
+}
+.info3{
+  background-color: lightblue;
+  position: absolute;
+  left: 110px;
+  top: 100px;  
+  opacity: 0;
+}
+.info2:hover .info3{
+  background-color: lightblue;
+  position: absolute;
+  left: 40%;
+  top: 100px;
+  opacity: 1;
+}
+.rcomment2{
+  opacity: 1; 
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  border: 2px solid black;
+}
+.rcomment3{
+  background-color: lightblue;
+  position: absolute;
+  left: 110px;
+  top: 100px;  
+  opacity: 0;
+}
+.rcomment2:hover .rcomment3{
+  background-color: lightblue;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  opacity: 1;
+}
+footer{
+  background-color: blanchedalmond;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-right:0px;
+  padding: 0px;
+  top: 100%;
+}
+.contact{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 22%;
+  top: 25%;
+  border: 1px solid black;
+}
+.contact:hover{
+  background-color: lightblue;
+}
+.cca{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 32%;
+  top: 25%;
+  border: 1px solid black;
+}
+.cca:hover{
+  background-color: lightblue;
+}
+.midwest{
+  width: 125px;
+  height: 35px;
+  position: absolute;
+  left: 42%;
+  top: 15%;
+  border: 1px solid black;
+}
+.midwest:hover{
+  background-color: lightblue;
+}
+.terms{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 52%;
+  top: 25%;
+  border: 1px solid black;
+}
+.terms:hover{
+  background-color: lightblue;
+}
+.emailMe{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 62%;
+  top: 25%;
+  border: 1px solid black;
+}
+.emailMe:hover{
+  background-color: lightblue;
+}
+.socialMedia{
+  width: 125px;
+  height: 20px;
+  position: absolute;
+  left: 72%;
+  top: 25%;
+  border: 1px solid black;
+}
+.socialMedia:hover{
+  background-color: lightblue;
+}
+.who:hover{
+  background-color: lightblue;
+}
+.reg:hover{
+  background-color: lightblue;
+}
+.event:hover{
+  background-color: lightblue;
+}
+.lcomment:hover{
+  background-color: lightblue;
+}
+.rcomment:hover{
+  background-color: lightblue;
+}
+.info:hover{
+  background-color: lightblue;
+}
+.aboutUs{
+  position: absolute;
+  background-color: blanchedalmond;
+  top: 35%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 0%;
+}
+.pic1{
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+.pic2{
+  position: absolute;
+  top: 35%;
+  left: 75%;
+}
+#registerInfo{
+  background-color: aqua;
+  position: relative;
+  left: 5%;
+  margin-bottom: 1%;
+}
+#whosR{
+  position: relative;
+  margin-bottom: 5%;
+}
+#rPage{
+  position: relative;
+  margin-bottom: 5%;
+}
+#tableHead{
+  margin-bottom: 0%;
+}

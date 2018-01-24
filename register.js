@@ -1,7 +1,9 @@
 //Waits untill the dom is loaded and then runs our JavaScript
 $(document).ready(function(){
-
+ tableRender()
   // On page load, make an AJAX request to our API endpoint to retrieve all friends in DB
+  function tableRender(){
+    $('#tableBody').empty()
   $.ajax({
     url: 'http://rest.learncode.academy/api/adamws33/friends', 
     type: 'GET'
@@ -20,7 +22,7 @@ $(document).ready(function(){
     //if our alert fails notify the user
     alert('AJAX call failed, unable to retrieve friends');
   })
-
+  }
 
   // On page load, make a clidk event listening for our Add A New Friend button
   $('#add').click((e) =>{
@@ -34,6 +36,9 @@ $(document).ready(function(){
     let lastName = newFriendName.substr(newFriendName.indexOf(' ')+1);
     let email= newFriendEmail
     let division= newFriendDiv
+    $('#inputN').val('');
+    $('#inputE').val('');
+    $('#inputD').val('');
     // Send the new friend's information to the API
 
     $.ajax({
@@ -50,12 +55,14 @@ $(document).ready(function(){
       let newElement = createFriend(`${newFriendName} ${newFriendDiv}` , data.id);
       console.log (data.id)
       $('#tableBody').append(createTableRowP(newFriendName,newFriendDiv, data.id))
-      $('#add').click(()=>{
+      // $('#add').click(()=>{
 
-      })
-      location.reload();
+      // })
+      // $('#tableBody').load('#tableBody')
+      // location.reload();
       //clear the input field
       $('#input').val("");
+        tableRender()
     }).fail( ()=>{
           //if our alert fails notify the user
       alert('AJAX call failed, unable to POST new friends');
@@ -102,7 +109,9 @@ function deleteRow(target){
   }).done( ()=>{
     // $(this).remove();
     $(target).parent().parent().remove();
-    location.reload();
+    // $('#tableBody').load('#tableBody')
+    // location.reload();
+    tableRender()
   }).fail( ()=>{
         //if our alert fails notify the user
     alert('AJAX call failed, unable to DELETE friends');
